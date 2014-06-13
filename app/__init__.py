@@ -11,5 +11,10 @@ def bye():
     return "Bye bye cruel world!"
 
 
+@app.route("/nice")
+def nice():
+    return "<h1>wow trop Nice Brice !!</h1>"
+
+
 if __name__ == "__main__":
     app.run()
